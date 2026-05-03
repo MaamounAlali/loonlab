@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>لون لاب - خلط لونين وثلاثة</title>
+
+  <meta name="application-name" content="لون لاب" />
+  <meta name="apple-mobile-web-app-title" content="لون لاب" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#22c55e" />
+  <meta name="description" content="لعبة تعليمية لخلط الألوان للأطفال." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%2270%22%20y1%3D%2280%22%20x2%3D%22430%22%20y2%3D%22430%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23ef4444%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22.35%22%20stop-color%3D%22%23facc15%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22.68%22%20stop-color%3D%22%233b82f6%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2322c55e%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-30%25%22%20y%3D%22-30%25%22%20width%3D%22160%25%22%20height%3D%22160%25%22%3E%0A%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2218%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%2317324d%22%20flood-opacity%3D%22.25%22/%3E%0A%20%20%20%20%3C/filter%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22512%22%20height%3D%22512%22%20rx%3D%22120%22%20fill%3D%22%23fff7d6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22168%22%20cy%3D%22172%22%20r%3D%2294%22%20fill%3D%22%23ef4444%22%20opacity%3D%22.92%22%20filter%3D%22url%28%23s%29%22/%3E%0A%20%20%3Ccircle%20cx%3D%22280%22%20cy%3D%22172%22%20r%3D%2294%22%20fill%3D%22%23facc15%22%20opacity%3D%22.92%22%20filter%3D%22url%28%23s%29%22/%3E%0A%20%20%3Ccircle%20cx%3D%22224%22%20cy%3D%22270%22%20r%3D%22104%22%20fill%3D%22%233b82f6%22%20opacity%3D%22.88%22%20filter%3D%22url%28%23s%29%22/%3E%0A%20%20%3Cpath%20d%3D%22M132%20368c54%2050%20194%2050%20248%200%22%20fill%3D%22none%22%20stroke%3D%22%2317324d%22%20stroke-width%3D%2232%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Ccircle%20cx%3D%22194%22%20cy%3D%22392%22%20r%3D%2216%22%20fill%3D%22%2317324d%22/%3E%0A%20%20%3Ccircle%20cx%3D%22318%22%20cy%3D%22392%22%20r%3D%2216%22%20fill%3D%22%2317324d%22/%3E%0A%3C/svg%3E" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%2270%22%20y1%3D%2280%22%20x2%3D%22430%22%20y2%3D%22430%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23ef4444%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22.35%22%20stop-color%3D%22%23facc15%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22.68%22%20stop-color%3D%22%233b82f6%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2322c55e%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-30%25%22%20y%3D%22-30%25%22%20width%3D%22160%25%22%20height%3D%22160%25%22%3E%0A%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2218%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%2317324d%22%20flood-opacity%3D%22.25%22/%3E%0A%20%20%20%20%3C/filter%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22512%22%20height%3D%22512%22%20rx%3D%22120%22%20fill%3D%22%23fff7d6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22168%22%20cy%3D%22172%22%20r%3D%2294%22%20fill%3D%22%23ef4444%22%20opacity%3D%22.92%22%20filter%3D%22url%28%23s%29%22/%3E%0A%20%20%3Ccircle%20cx%3D%22280%22%20cy%3D%22172%22%20r%3D%2294%22%20fill%3D%22%23facc15%22%20opacity%3D%22.92%22%20filter%3D%22url%28%23s%29%22/%3E%0A%20%20%3Ccircle%20cx%3D%22224%22%20cy%3D%22270%22%20r%3D%22104%22%20fill%3D%22%233b82f6%22%20opacity%3D%22.88%22%20filter%3D%22url%28%23s%29%22/%3E%0A%20%20%3Cpath%20d%3D%22M132%20368c54%2050%20194%2050%20248%200%22%20fill%3D%22none%22%20stroke%3D%22%2317324d%22%20stroke-width%3D%2232%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Ccircle%20cx%3D%22194%22%20cy%3D%22392%22%20r%3D%2216%22%20fill%3D%22%2317324d%22/%3E%0A%20%20%3Ccircle%20cx%3D%22318%22%20cy%3D%22392%22%20r%3D%2216%22%20fill%3D%22%2317324d%22/%3E%0A%3C/svg%3E" />
+  <link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%20%22%D9%85%D8%AE%D8%AA%D8%A8%D8%B1%20%D8%A7%D9%84%D8%A3%D9%84%D9%88%D8%A7%D9%86%22%2C%20%22short_name%22%3A%20%22%D9%84%D9%88%D9%86%20%D9%84%D8%A7%D8%A8%22%2C%20%22description%22%3A%20%22%D9%84%D8%B9%D8%A8%D8%A9%20%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9%20%D9%84%D8%AE%D9%84%D8%B7%20%D8%A7%D9%84%D8%A3%D9%84%D9%88%D8%A7%D9%86%20%D9%84%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84.%22%2C%20%22start_url%22%3A%20%22.%22%2C%20%22display%22%3A%20%22standalone%22%2C%20%22orientation%22%3A%20%22portrait%22%2C%20%22dir%22%3A%20%22rtl%22%2C%20%22lang%22%3A%20%22ar%22%2C%20%22background_color%22%3A%20%22%23fff7d6%22%2C%20%22theme_color%22%3A%20%22%2322c55e%22%2C%20%22icons%22%3A%20%5B%7B%22src%22%3A%20%22data%3Aimage/svg%2Bxml%2C%253Csvg%2520xmlns%253D%2522http%253A//www.w3.org/2000/svg%2522%2520viewBox%253D%25220%25200%2520512%2520512%2522%253E%250A%2520%2520%253Cdefs%253E%250A%2520%2520%2520%2520%253ClinearGradient%2520id%253D%2522g%2522%2520x1%253D%252270%2522%2520y1%253D%252280%2522%2520x2%253D%2522430%2522%2520y2%253D%2522430%2522%2520gradientUnits%253D%2522userSpaceOnUse%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cstop%2520offset%253D%25220%2522%2520stop-color%253D%2522%2523ef4444%2522/%253E%250A%2520%2520%2520%2520%2520%2520%253Cstop%2520offset%253D%2522.35%2522%2520stop-color%253D%2522%2523facc15%2522/%253E%250A%2520%2520%2520%2520%2520%2520%253Cstop%2520offset%253D%2522.68%2522%2520stop-color%253D%2522%25233b82f6%2522/%253E%250A%2520%2520%2520%2520%2520%2520%253Cstop%2520offset%253D%25221%2522%2520stop-color%253D%2522%252322c55e%2522/%253E%250A%2520%2520%2520%2520%253C/linearGradient%253E%250A%2520%2520%2520%2520%253Cfilter%2520id%253D%2522s%2522%2520x%253D%2522-30%2525%2522%2520y%253D%2522-30%2525%2522%2520width%253D%2522160%2525%2522%2520height%253D%2522160%2525%2522%253E%250A%2520%2520%2520%2520%2520%2520%253CfeDropShadow%2520dx%253D%25220%2522%2520dy%253D%252218%2522%2520stdDeviation%253D%252218%2522%2520flood-color%253D%2522%252317324d%2522%2520flood-opacity%253D%2522.25%2522/%253E%250A%2520%2520%2520%2520%253C/filter%253E%250A%2520%2520%253C/defs%253E%250A%2520%2520%253Crect%2520width%253D%2522512%2522%2520height%253D%2522512%2522%2520rx%253D%2522120%2522%2520fill%253D%2522%2523fff7d6%2522/%253E%250A%2520%2520%253Ccircle%2520cx%253D%2522168%2522%2520cy%253D%2522172%2522%2520r%253D%252294%2522%2520fill%253D%2522%2523ef4444%2522%2520opacity%253D%2522.92%2522%2520filter%253D%2522url%2528%2523s%2529%2522/%253E%250A%2520%2520%253Ccircle%2520cx%253D%2522280%2522%2520cy%253D%2522172%2522%2520r%253D%252294%2522%2520fill%253D%2522%2523facc15%2522%2520opacity%253D%2522.92%2522%2520filter%253D%2522url%2528%2523s%2529%2522/%253E%250A%2520%2520%253Ccircle%2520cx%253D%2522224%2522%2520cy%253D%2522270%2522%2520r%253D%2522104%2522%2520fill%253D%2522%25233b82f6%2522%2520opacity%253D%2522.88%2522%2520filter%253D%2522url%2528%2523s%2529%2522/%253E%250A%2520%2520%253Cpath%2520d%253D%2522M132%2520368c54%252050%2520194%252050%2520248%25200%2522%2520fill%253D%2522none%2522%2520stroke%253D%2522%252317324d%2522%2520stroke-width%253D%252232%2522%2520stroke-linecap%253D%2522round%2522/%253E%250A%2520%2520%253Ccircle%2520cx%253D%2522194%2522%2520cy%253D%2522392%2522%2520r%253D%252216%2522%2520fill%253D%2522%252317324d%2522/%253E%250A%2520%2520%253Ccircle%2520cx%253D%2522318%2522%2520cy%253D%2522392%2522%2520r%253D%252216%2522%2520fill%253D%2522%252317324d%2522/%253E%250A%253C/svg%253E%22%2C%20%22sizes%22%3A%20%22512x512%22%2C%20%22type%22%3A%20%22image/svg%2Bxml%22%2C%20%22purpose%22%3A%20%22any%20maskable%22%7D%5D%7D" />
+
+  <style>
+    :root {
+      --bg-1: #fff6cf;
+      --bg-2: #e7f8ff;
+      --card: rgba(255, 255, 255, 0.9);
+      --text: #17324d;
+      --muted: #58708a;
+      --line: rgba(23, 50, 77, 0.14);
+      --shadow: 0 14px 34px rgba(23, 50, 77, 0.16);
+      --radius-xl: 28px;
+      --radius-lg: 22px;
+      --gap: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 15% 12%, rgba(255,255,255,.45), transparent 30%),
+        radial-gradient(circle at 90% 18%, rgba(255,255,255,.28), transparent 28%),
+        linear-gradient(135deg, var(--bg-1), var(--bg-2));
+      user-select: none;
+      -webkit-user-select: none;
+      transition: background 320ms ease;
+    }
+
+    button {
+      font: inherit;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .app {
+      width: min(1100px, calc(100% - 24px));
+      min-height: 100dvh;
+      margin: 0 auto;
+      padding: max(10px, env(safe-area-inset-top)) 0 max(10px, env(safe-area-inset-bottom));
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: var(--gap);
+    }
+
+    .top-bar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: var(--gap);
+      align-items: center;
+    }
+
+    .title-card,
+    .score-card,
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+
+    .title-card {
+      padding: 14px 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-mark {
+      width: 54px;
+      height: 54px;
+      flex: 0 0 54px;
+      border-radius: 18px;
+      box-shadow: 0 10px 24px rgba(23, 50, 77, .18);
+      background: #fff;
+    }
+
+    .install-hint {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 6px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: rgba(34, 197, 94, .13);
+      color: #166534;
+      font-size: .78rem;
+      font-weight: 950;
+      line-height: 1.2;
+    }
+
+    .title-card h1 {
+      margin: 0;
+      font-size: clamp(1.3rem, 4vw, 2.4rem);
+      line-height: 1.1;
+    }
+
+    .title-card p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: .95rem;
+      line-height: 1.45;
+      font-weight: 750;
+    }
+
+    .score-card {
+      min-width: 92px;
+      height: 86px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 8px;
+    }
+
+    .score-label {
+      color: var(--muted);
+      font-size: .8rem;
+      font-weight: 900;
+    }
+
+    .score-value {
+      font-size: 2.25rem;
+      line-height: 1;
+      font-weight: 950;
+    }
+
+    .game {
+      min-height: 0;
+      display: grid;
+      grid-template-columns: .9fr 1.15fr;
+      gap: var(--gap);
+    }
+
+    .panel {
+      min-height: 0;
+      padding: 14px;
+      overflow: hidden;
+    }
+
+    .palette {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 10px;
+    }
+
+    .section-title {
+      margin: 0;
+      font-size: 1.12rem;
+      line-height: 1.2;
+    }
+
+    .colors {
+      min-height: 0;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .color-token {
+      border: 0;
+      border-radius: 24px;
+      color: #fff;
+      font-weight: 950;
+      font-size: 1.02rem;
+      cursor: grab;
+      touch-action: none;
+      box-shadow: 0 10px 22px rgba(0, 0, 0, .16);
+      position: relative;
+      overflow: hidden;
+      transition: transform 150ms ease, box-shadow 150ms ease, opacity 150ms ease;
+    }
+
+    .color-token::after {
+      content: "";
+      position: absolute;
+      inset: 9px;
+      border-radius: 18px;
+      border: 2px solid rgba(255,255,255,.38);
+      pointer-events: none;
+    }
+
+    .color-token:active {
+      transform: scale(.96);
+      cursor: grabbing;
+    }
+
+    .color-token.is-used {
+      opacity: .48;
+      transform: scale(.95);
+    }
+
+    .red { background: #ef4444; }
+    .yellow { background: #facc15; color: #4b3900; }
+    .blue { background: #3b82f6; }
+    .white { background: #fff; color: #334155; }
+    .black { background: #111827; }
+    .green { background: #22c55e; }
+
+    .lab {
+      display: grid;
+      grid-template-rows: auto auto minmax(92px, .8fr) minmax(92px, .8fr) auto;
+      gap: 10px;
+    }
+
+    .challenge {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      border-radius: var(--radius-lg);
+      background: rgba(255,255,255,.7);
+      border: 2px dashed rgba(23, 50, 77, .16);
+    }
+
+    .challenge p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.45;
+      font-weight: 900;
+    }
+
+    .target-color {
+      width: 58px;
+      height: 58px;
+      border-radius: 18px;
+      border: 5px solid white;
+      box-shadow: 0 8px 16px rgba(23, 50, 77, .16);
+    }
+
+    .feedback {
+      min-height: 44px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 9px 12px;
+      border-radius: var(--radius-lg);
+      background: rgba(255,255,255,.72);
+      border: 1px solid var(--line);
+      color: var(--text);
+      font-weight: 950;
+      line-height: 1.35;
+    }
+
+    .mixing-zone {
+      min-height: 0;
+      border: 4px dashed rgba(23, 50, 77, .18);
+      border-radius: var(--radius-xl);
+      display: grid;
+      place-items: center;
+      padding: 10px;
+      background: rgba(255,255,255,.58);
+      transition: border-color 180ms ease, background 180ms ease, transform 180ms ease;
+    }
+
+    .mixing-zone.is-over {
+      border-color: #3b82f6;
+      background: rgba(59,130,246,.12);
+      transform: scale(1.01);
+    }
+
+    .empty-note {
+      text-align: center;
+      color: var(--muted);
+      font-weight: 950;
+      line-height: 1.4;
+    }
+
+    .dropped-colors {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      align-items: stretch;
+    }
+
+    .small-drop {
+      min-height: 72px;
+      border-radius: 22px;
+      display: grid;
+      place-items: center;
+      color: white;
+      font-weight: 950;
+      border: 4px solid white;
+      box-shadow: 0 10px 20px rgba(23, 50, 77, .16);
+    }
+
+    .small-drop.light-text {
+      color: #334155;
+    }
+
+    .result-card {
+      min-height: 0;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      gap: 7px;
+      padding: 8px;
+      border-radius: var(--radius-xl);
+      background: rgba(255,255,255,.62);
+      border: 1px solid var(--line);
+    }
+
+    .result-color {
+      min-height: 0;
+      border-radius: 22px;
+      border: 5px solid white;
+      background: linear-gradient(145deg, #ffffff, #e5e7eb);
+      box-shadow: inset 0 0 0 1px rgba(23, 50, 77, .06), 0 12px 24px rgba(23, 50, 77, .14);
+    }
+
+    .result-text {
+      text-align: center;
+      line-height: 1.25;
+    }
+
+    .result-text strong {
+      display: block;
+      font-size: 1.12rem;
+      font-weight: 950;
+    }
+
+    .result-text span {
+      display: block;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: .88rem;
+      font-weight: 850;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 18px;
+      padding: 11px 8px;
+      color: white;
+      background: #17324d;
+      font-size: .92rem;
+      font-weight: 950;
+      box-shadow: 0 8px 16px rgba(23, 50, 77, .16);
+      cursor: pointer;
+    }
+
+    .btn:active {
+      transform: scale(.96);
+    }
+
+    .btn.success { background: #16a34a; }
+    .btn.secondary { background: #64748b; }
+    .btn.danger { background: #ef4444; }
+
+    .ghost {
+      position: fixed;
+      z-index: 9999;
+      pointer-events: none;
+      width: 86px;
+      height: 86px;
+      border-radius: 26px;
+      display: grid;
+      place-items: center;
+      color: white;
+      font-weight: 950;
+      box-shadow: 0 18px 30px rgba(0,0,0,.24);
+      border: 5px solid white;
+      transform: translate(-50%, -50%) rotate(-5deg);
+    }
+
+    .ghost.light-text {
+      color: #334155;
+    }
+
+    @media (max-width: 760px) {
+      html,
+      body {
+        height: 100%;
+        overflow: hidden;
+      }
+
+      body {
+        position: fixed;
+        inset: 0;
+      }
+
+      .app {
+        width: 100%;
+        height: 100dvh;
+        min-height: 0;
+        padding: max(8px, env(safe-area-inset-top)) 8px max(8px, env(safe-area-inset-bottom));
+        grid-template-rows: auto 1fr;
+        overflow: hidden;
+      }
+
+      .top-bar {
+        grid-template-columns: 1fr 72px;
+        gap: 8px;
+      }
+
+      .title-card {
+        padding: 10px 12px;
+        border-radius: 22px;
+      }
+
+
+      .brand {
+        gap: 8px;
+      }
+
+      .logo-mark {
+        width: 42px;
+        height: 42px;
+        flex-basis: 42px;
+        border-radius: 14px;
+      }
+
+      .install-hint {
+        display: none;
+      }
+
+      .title-card h1 {
+        font-size: 1.15rem;
+      }
+
+      .title-card p {
+        font-size: .78rem;
+        margin-top: 3px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .score-card {
+        min-width: 0;
+        height: 62px;
+        border-radius: 22px;
+      }
+
+      .score-label {
+        font-size: .66rem;
+      }
+
+      .score-value {
+        font-size: 1.65rem;
+      }
+
+      .game {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        gap: 8px;
+        overflow: hidden;
+      }
+
+      .panel {
+        padding: 10px;
+        border-radius: 24px;
+      }
+
+      .palette {
+        grid-template-rows: auto;
+        gap: 7px;
+      }
+
+      .palette .section-title {
+        display: none;
+      }
+
+      .colors {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 6px;
+      }
+
+      .color-token {
+        height: clamp(54px, 8.5dvh, 68px);
+        min-height: 0;
+        border-radius: 18px;
+        font-size: .76rem;
+      }
+
+      .color-token::after {
+        inset: 6px;
+        border-radius: 13px;
+      }
+
+      .lab {
+        grid-template-rows: auto auto minmax(78px, .72fr) minmax(100px, .9fr) auto;
+        gap: 8px;
+        overflow: hidden;
+      }
+
+      .section-title {
+        display: none;
+      }
+
+      .challenge {
+        padding: 8px;
+        border-radius: 20px;
+        grid-template-columns: 1fr 52px;
+      }
+
+      .challenge p {
+        font-size: .84rem;
+        line-height: 1.3;
+      }
+
+      .target-color {
+        width: 48px;
+        height: 48px;
+        border-radius: 16px;
+        border-width: 4px;
+      }
+
+      .feedback {
+        min-height: 36px;
+        padding: 7px 9px;
+        border-radius: 18px;
+        font-size: .78rem;
+      }
+
+      .mixing-zone {
+        border-width: 3px;
+        border-radius: 24px;
+        padding: 8px;
+      }
+
+      .empty-note {
+        font-size: .78rem;
+      }
+
+      .dropped-colors {
+        gap: 6px;
+      }
+
+      .small-drop {
+        min-height: 58px;
+        border-radius: 18px;
+        font-size: .74rem;
+        border-width: 3px;
+      }
+
+      .result-card {
+        border-radius: 24px;
+        padding: 7px;
+        gap: 5px;
+      }
+
+      .result-color {
+        border-radius: 19px;
+        border-width: 4px;
+      }
+
+      .result-text strong {
+        font-size: .95rem;
+      }
+
+      .result-text span {
+        font-size: .72rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .actions {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 6px;
+      }
+
+      .btn {
+        min-height: 42px;
+        border-radius: 16px;
+        padding: 6px 4px;
+        font-size: .75rem;
+      }
+
+      .ghost {
+        width: 72px;
+        height: 72px;
+        border-radius: 22px;
+        font-size: .8rem;
+      }
+    }
+
+    @media (max-width: 370px), (max-height: 700px) and (max-width: 760px) {
+      .app {
+        padding: max(6px, env(safe-area-inset-top)) 6px max(6px, env(safe-area-inset-bottom));
+        gap: 6px;
+      }
+
+
+      .logo-mark {
+        width: 34px;
+        height: 34px;
+        flex-basis: 34px;
+      }
+
+      .title-card p {
+        display: none;
+      }
+
+      .score-card {
+        height: 48px;
+      }
+
+      .score-value {
+        font-size: 1.35rem;
+      }
+
+      .panel {
+        padding: 8px;
+      }
+
+      .colors {
+        gap: 5px;
+      }
+
+      .color-token {
+        height: clamp(44px, 7.6dvh, 54px);
+        font-size: .68rem;
+        border-radius: 15px;
+      }
+
+      .color-token::after {
+        display: none;
+      }
+
+      .lab {
+        grid-template-rows: auto auto minmax(62px, .65fr) minmax(78px, .8fr) auto;
+        gap: 6px;
+      }
+
+      .challenge {
+        grid-template-columns: 1fr 42px;
+        padding: 6px;
+      }
+
+      .challenge p {
+        font-size: .74rem;
+      }
+
+      .target-color {
+        width: 40px;
+        height: 40px;
+      }
+
+      .feedback {
+        min-height: 30px;
+        font-size: .7rem;
+        padding: 5px 7px;
+      }
+
+      .small-drop {
+        min-height: 46px;
+        border-radius: 15px;
+        font-size: .66rem;
+      }
+
+      .result-text strong {
+        font-size: .82rem;
+      }
+
+      .result-text span {
+        font-size: .62rem;
+      }
+
+      .btn {
+        min-height: 36px;
+        font-size: .66rem;
+        border-radius: 13px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="app">
+    <header class="top-bar">
+      <div class="title-card">
+        <div class="brand">
+          <img class="logo-mark" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20512%20512%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%2270%22%20y1%3D%2280%22%20x2%3D%22430%22%20y2%3D%22430%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23ef4444%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22.35%22%20stop-color%3D%22%23facc15%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%22.68%22%20stop-color%3D%22%233b82f6%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2322c55e%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%20%20%3Cfilter%20id%3D%22s%22%20x%3D%22-30%25%22%20y%3D%22-30%25%22%20width%3D%22160%25%22%20height%3D%22160%25%22%3E%0A%20%20%20%20%20%20%3CfeDropShadow%20dx%3D%220%22%20dy%3D%2218%22%20stdDeviation%3D%2218%22%20flood-color%3D%22%2317324d%22%20flood-opacity%3D%22.25%22/%3E%0A%20%20%20%20%3C/filter%3E%0A%20%20%3C/defs%3E%0A%20%20%3Crect%20width%3D%22512%22%20height%3D%22512%22%20rx%3D%22120%22%20fill%3D%22%23fff7d6%22/%3E%0A%20%20%3Ccircle%20cx%3D%22168%22%20cy%3D%22172%22%20r%3D%2294%22%20fill%3D%22%23ef4444%22%20opacity%3D%22.92%22%20filter%3D%22url%28%23s%29%22/%3E%0A%20%20%3Ccircle%20cx%3D%22280%22%20cy%3D%22172%22%20r%3D%2294%22%20fill%3D%22%23facc15%22%20opacity%3D%22.92%22%20filter%3D%22url%28%23s%29%22/%3E%0A%20%20%3Ccircle%20cx%3D%22224%22%20cy%3D%22270%22%20r%3D%22104%22%20fill%3D%22%233b82f6%22%20opacity%3D%22.88%22%20filter%3D%22url%28%23s%29%22/%3E%0A%20%20%3Cpath%20d%3D%22M132%20368c54%2050%20194%2050%20248%200%22%20fill%3D%22none%22%20stroke%3D%22%2317324d%22%20stroke-width%3D%2232%22%20stroke-linecap%3D%22round%22/%3E%0A%20%20%3Ccircle%20cx%3D%22194%22%20cy%3D%22392%22%20r%3D%2216%22%20fill%3D%22%2317324d%22/%3E%0A%20%20%3Ccircle%20cx%3D%22318%22%20cy%3D%22392%22%20r%3D%2216%22%20fill%3D%22%2317324d%22/%3E%0A%3C/svg%3E" alt="شعار لون لاب" />
+          <div>
+            <h1>لون لاب</h1>
+            <p>اخلطي لونين أو ثلاثة، خاصة تحديات الثلاثة ألوان.</p>
+            <span class="install-hint">اسم الشاشة الرئيسية: لون لاب</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="score-card" aria-live="polite">
+        <div>
+          <div class="score-label">النقاط</div>
+          <div class="score-value" id="score">0</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="game">
+      <aside class="panel palette" aria-label="لوحة الألوان">
+        <h2 class="section-title">الألوان</h2>
+        <div class="colors" id="palette">
+          <button class="color-token red" data-color="red" data-name="أحمر" data-hex="#ef4444">أحمر</button>
+          <button class="color-token yellow" data-color="yellow" data-name="أصفر" data-hex="#facc15">أصفر</button>
+          <button class="color-token blue" data-color="blue" data-name="أزرق" data-hex="#3b82f6">أزرق</button>
+          <button class="color-token white" data-color="white" data-name="أبيض" data-hex="#ffffff">أبيض</button>
+          <button class="color-token black" data-color="black" data-name="أسود" data-hex="#111827">أسود</button>
+          <button class="color-token green" data-color="green" data-name="أخضر" data-hex="#22c55e">أخضر</button>
+        </div>
+      </aside>
+
+      <section class="panel lab" aria-label="مختبر الخلط">
+        <div class="challenge">
+          <p id="challengeText">اصنعي اللون المطلوب.</p>
+          <div class="target-color" id="targetColor" aria-label="اللون المطلوب"></div>
+        </div>
+
+        <div class="feedback" id="feedback" aria-live="polite">
+          اختاري لونين أو ثلاثة.
+        </div>
+
+        <div class="mixing-zone" id="mixingZone" aria-label="منطقة إسقاط الألوان">
+          <div class="empty-note" id="emptyNote">وعاء الخلط</div>
+          <div class="dropped-colors" id="droppedColors"></div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-color" id="resultColor" aria-label="اللون الناتج"></div>
+          <div class="result-text">
+            <strong id="resultName">اختاري لوناً آخر</strong>
+            <span id="formula">الخلط يحتاج لونين على الأقل.</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn success" id="checkBtn">فحص</button>
+          <button class="btn secondary" id="mixBtn">خلط</button>
+          <button class="btn danger" id="resetBtn">مسح</button>
+          <button class="btn" id="newChallengeBtn">جديد</button>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const colorNames = {
+      red: "أحمر",
+      yellow: "أصفر",
+      blue: "أزرق",
+      white: "أبيض",
+      black: "أسود",
+      green: "أخضر"
+    };
+
+    const colorHex = {
+      red: "#ef4444",
+      yellow: "#facc15",
+      blue: "#3b82f6",
+      white: "#ffffff",
+      black: "#111827",
+      green: "#22c55e"
+    };
+
+    const recipes = {
+      "black+black": {
+            "name": "أسود",
+            "hex": "#0c101b",
+            "lesson": "أسود + أسود = أسود."
+      },
+      "black+blue": {
+            "name": "كحلي",
+            "hex": "#1e3a8a",
+            "lesson": "أسود + أزرق = كحلي."
+      },
+      "black+green": {
+            "name": "أخضر داكن",
+            "hex": "#166534",
+            "lesson": "أسود + أخضر = أخضر داكن."
+      },
+      "black+red": {
+            "name": "عنابي",
+            "hex": "#7f1d1d",
+            "lesson": "أسود + أحمر = عنابي."
+      },
+      "black+white": {
+            "name": "رمادي",
+            "hex": "#94a3b8",
+            "lesson": "أسود + أبيض = رمادي."
+      },
+      "black+yellow": {
+            "name": "زيتي",
+            "hex": "#727000",
+            "lesson": "أسود + أصفر = زيتي."
+      },
+      "blue+blue": {
+            "name": "أزرق",
+            "hex": "#3b82f6",
+            "lesson": "أزرق + أزرق = أزرق."
+      },
+      "blue+green": {
+            "name": "تركوازي",
+            "hex": "#14b8a6",
+            "lesson": "أزرق + أخضر = تركوازي."
+      },
+      "blue+red": {
+            "name": "بنفسجي",
+            "hex": "#8b5cf6",
+            "lesson": "أزرق + أحمر = بنفسجي."
+      },
+      "blue+white": {
+            "name": "أزرق سماوي",
+            "hex": "#93c5fd",
+            "lesson": "أزرق + أبيض = أزرق سماوي."
+      },
+      "blue+yellow": {
+            "name": "أخضر",
+            "hex": "#22c55e",
+            "lesson": "أزرق + أصفر = أخضر."
+      },
+      "green+green": {
+            "name": "أخضر",
+            "hex": "#22c55e",
+            "lesson": "أخضر + أخضر = أخضر."
+      },
+      "green+red": {
+            "name": "بني زيتوني",
+            "hex": "#7c4a1d",
+            "lesson": "أخضر + أحمر = بني زيتوني."
+      },
+      "green+white": {
+            "name": "أخضر نعناعي",
+            "hex": "#86efac",
+            "lesson": "أخضر + أبيض = أخضر نعناعي."
+      },
+      "green+yellow": {
+            "name": "ليموني",
+            "hex": "#a3e635",
+            "lesson": "أخضر + أصفر = ليموني."
+      },
+      "red+red": {
+            "name": "أحمر",
+            "hex": "#ef4444",
+            "lesson": "أحمر + أحمر = أحمر."
+      },
+      "red+white": {
+            "name": "وردي",
+            "hex": "#fb7185",
+            "lesson": "أحمر + أبيض = وردي."
+      },
+      "red+yellow": {
+            "name": "برتقالي",
+            "hex": "#f97316",
+            "lesson": "أحمر + أصفر = برتقالي."
+      },
+      "white+white": {
+            "name": "أبيض",
+            "hex": "#ffffff",
+            "lesson": "أبيض + أبيض = أبيض."
+      },
+      "white+yellow": {
+            "name": "كريمي",
+            "hex": "#fde68a",
+            "lesson": "أبيض + أصفر = كريمي."
+      },
+      "yellow+yellow": {
+            "name": "أصفر",
+            "hex": "#facc15",
+            "lesson": "أصفر + أصفر = أصفر."
+      },
+      "black+black+black": {
+            "name": "أسود",
+            "hex": "#0c101b",
+            "lesson": "أسود + أسود + أسود = أسود."
+      },
+      "black+black+blue": {
+            "name": "كحلي داكن",
+            "hex": "#172554",
+            "lesson": "أسود + أسود + أزرق = كحلي داكن."
+      },
+      "black+black+green": {
+            "name": "أخضر غابة",
+            "hex": "#14532d",
+            "lesson": "أسود + أسود + أخضر = أخضر غابة."
+      },
+      "black+black+red": {
+            "name": "خمري داكن",
+            "hex": "#581c1c",
+            "lesson": "أسود + أسود + أحمر = خمري داكن."
+      },
+      "black+black+white": {
+            "name": "رمادي داكن",
+            "hex": "#475569",
+            "lesson": "أسود + أسود + أبيض = رمادي داكن."
+      },
+      "black+black+yellow": {
+            "name": "زيتي داكن",
+            "hex": "#4d4d05",
+            "lesson": "أسود + أسود + أصفر = زيتي داكن."
+      },
+      "black+blue+blue": {
+            "name": "أزرق ليلي",
+            "hex": "#1e40af",
+            "lesson": "أسود + أزرق + أزرق = أزرق ليلي."
+      },
+      "black+blue+green": {
+            "name": "بترولي داكن",
+            "hex": "#0f766e",
+            "lesson": "أسود + أزرق + أخضر = بترولي داكن."
+      },
+      "black+blue+red": {
+            "name": "بنفسجي داكن",
+            "hex": "#4c1d95",
+            "lesson": "أسود + أزرق + أحمر = بنفسجي داكن."
+      },
+      "black+blue+white": {
+            "name": "أزرق رمادي",
+            "hex": "#64748b",
+            "lesson": "أسود + أزرق + أبيض = أزرق رمادي."
+      },
+      "black+blue+yellow": {
+            "name": "أخضر داكن",
+            "hex": "#166534",
+            "lesson": "أسود + أزرق + أصفر = أخضر داكن."
+      },
+      "black+green+green": {
+            "name": "أخضر زمردي داكن",
+            "hex": "#047857",
+            "lesson": "أسود + أخضر + أخضر = أخضر زمردي داكن."
+      },
+      "black+green+red": {
+            "name": "بني غامق",
+            "hex": "#713f12",
+            "lesson": "أسود + أخضر + أحمر = بني غامق."
+      },
+      "black+green+white": {
+            "name": "أخضر رمادي",
+            "hex": "#4b7f52",
+            "lesson": "أسود + أخضر + أبيض = أخضر رمادي."
+      },
+      "black+green+yellow": {
+            "name": "أخضر زيتوني",
+            "hex": "#4d7c0f",
+            "lesson": "أسود + أخضر + أصفر = أخضر زيتوني."
+      },
+      "black+red+red": {
+            "name": "أحمر كرزي داكن",
+            "hex": "#991b1b",
+            "lesson": "أسود + أحمر + أحمر = أحمر كرزي داكن."
+      },
+      "black+red+white": {
+            "name": "وردي داكن",
+            "hex": "#be123c",
+            "lesson": "أسود + أحمر + أبيض = وردي داكن."
+      },
+      "black+red+yellow": {
+            "name": "بني داكن",
+            "hex": "#78350f",
+            "lesson": "أسود + أحمر + أصفر = بني داكن."
+      },
+      "black+white+white": {
+            "name": "رمادي فاتح",
+            "hex": "#cbd5e1",
+            "lesson": "أسود + أبيض + أبيض = رمادي فاتح."
+      },
+      "black+white+yellow": {
+            "name": "أصفر رملي",
+            "hex": "#ca8a04",
+            "lesson": "أسود + أبيض + أصفر = أصفر رملي."
+      },
+      "black+yellow+yellow": {
+            "name": "خردلي",
+            "hex": "#a16207",
+            "lesson": "أسود + أصفر + أصفر = خردلي."
+      },
+      "blue+blue+blue": {
+            "name": "أزرق",
+            "hex": "#3b82f6",
+            "lesson": "أزرق + أزرق + أزرق = أزرق."
+      },
+      "blue+blue+green": {
+            "name": "أزرق تركوازي",
+            "hex": "#0891b2",
+            "lesson": "أزرق + أزرق + أخضر = أزرق تركوازي."
+      },
+      "blue+blue+red": {
+            "name": "بنفسجي مزرق",
+            "hex": "#6d28d9",
+            "lesson": "أزرق + أزرق + أحمر = بنفسجي مزرق."
+      },
+      "blue+blue+white": {
+            "name": "أزرق سماوي قوي",
+            "hex": "#60a5fa",
+            "lesson": "أزرق + أزرق + أبيض = أزرق سماوي قوي."
+      },
+      "blue+blue+yellow": {
+            "name": "أخضر مزرق",
+            "hex": "#0d9488",
+            "lesson": "أزرق + أزرق + أصفر = أخضر مزرق."
+      },
+      "blue+green+green": {
+            "name": "أخضر مائي",
+            "hex": "#2dd4bf",
+            "lesson": "أزرق + أخضر + أخضر = أخضر مائي."
+      },
+      "blue+green+red": {
+            "name": "بني بارد",
+            "hex": "#78716c",
+            "lesson": "أزرق + أخضر + أحمر = بني بارد."
+      },
+      "blue+green+white": {
+            "name": "تركوازي فاتح",
+            "hex": "#67e8f9",
+            "lesson": "أزرق + أخضر + أبيض = تركوازي فاتح."
+      },
+      "blue+green+yellow": {
+            "name": "أخضر مائي فاتح",
+            "hex": "#5eead4",
+            "lesson": "أزرق + أخضر + أصفر = أخضر مائي فاتح."
+      },
+      "blue+red+red": {
+            "name": "بنفسجي محمر",
+            "hex": "#a21caf",
+            "lesson": "أزرق + أحمر + أحمر = بنفسجي محمر."
+      },
+      "blue+red+white": {
+            "name": "لافندر",
+            "hex": "#c4b5fd",
+            "lesson": "أزرق + أحمر + أبيض = لافندر."
+      },
+      "blue+red+yellow": {
+            "name": "بني",
+            "hex": "#92400e",
+            "lesson": "أزرق + أحمر + أصفر = بني."
+      },
+      "blue+white+white": {
+            "name": "أزرق ثلجي",
+            "hex": "#bfdbfe",
+            "lesson": "أزرق + أبيض + أبيض = أزرق ثلجي."
+      },
+      "blue+white+yellow": {
+            "name": "أخضر باستيل",
+            "hex": "#bbf7d0",
+            "lesson": "أزرق + أبيض + أصفر = أخضر باستيل."
+      },
+      "blue+yellow+yellow": {
+            "name": "أخضر مصفر",
+            "hex": "#65a30d",
+            "lesson": "أزرق + أصفر + أصفر = أخضر مصفر."
+      },
+      "green+green+green": {
+            "name": "أخضر",
+            "hex": "#22c55e",
+            "lesson": "أخضر + أخضر + أخضر = أخضر."
+      },
+      "green+green+red": {
+            "name": "بني أخضر",
+            "hex": "#5f6f1f",
+            "lesson": "أخضر + أخضر + أحمر = بني أخضر."
+      },
+      "green+green+white": {
+            "name": "نعناعي",
+            "hex": "#86efac",
+            "lesson": "أخضر + أخضر + أبيض = نعناعي."
+      },
+      "green+green+yellow": {
+            "name": "أخضر ليموني",
+            "hex": "#84cc16",
+            "lesson": "أخضر + أخضر + أصفر = أخضر ليموني."
+      },
+      "green+red+red": {
+            "name": "بني محمر",
+            "hex": "#92400e",
+            "lesson": "أخضر + أحمر + أحمر = بني محمر."
+      },
+      "green+red+white": {
+            "name": "وردي ترابي",
+            "hex": "#d8a48f",
+            "lesson": "أخضر + أحمر + أبيض = وردي ترابي."
+      },
+      "green+red+yellow": {
+            "name": "بني دافئ",
+            "hex": "#a16207",
+            "lesson": "أخضر + أحمر + أصفر = بني دافئ."
+      },
+      "green+white+white": {
+            "name": "أخضر باهت",
+            "hex": "#bbf7d0",
+            "lesson": "أخضر + أبيض + أبيض = أخضر باهت."
+      },
+      "green+white+yellow": {
+            "name": "ليموني فاتح",
+            "hex": "#d9f99d",
+            "lesson": "أخضر + أبيض + أصفر = ليموني فاتح."
+      },
+      "green+yellow+yellow": {
+            "name": "أصفر مخضر",
+            "hex": "#bef264",
+            "lesson": "أخضر + أصفر + أصفر = أصفر مخضر."
+      },
+      "red+red+red": {
+            "name": "أحمر",
+            "hex": "#ef4444",
+            "lesson": "أحمر + أحمر + أحمر = أحمر."
+      },
+      "red+red+white": {
+            "name": "وردي قوي",
+            "hex": "#f43f5e",
+            "lesson": "أحمر + أحمر + أبيض = وردي قوي."
+      },
+      "red+red+yellow": {
+            "name": "برتقالي محمر",
+            "hex": "#f97316",
+            "lesson": "أحمر + أحمر + أصفر = برتقالي محمر."
+      },
+      "red+white+white": {
+            "name": "وردي فاتح",
+            "hex": "#fecdd3",
+            "lesson": "أحمر + أبيض + أبيض = وردي فاتح."
+      },
+      "red+white+yellow": {
+            "name": "خوخي",
+            "hex": "#fdba74",
+            "lesson": "أحمر + أبيض + أصفر = خوخي."
+      },
+      "red+yellow+yellow": {
+            "name": "برتقالي مصفر",
+            "hex": "#fb923c",
+            "lesson": "أحمر + أصفر + أصفر = برتقالي مصفر."
+      },
+      "white+white+white": {
+            "name": "أبيض",
+            "hex": "#ffffff",
+            "lesson": "أبيض + أبيض + أبيض = أبيض."
+      },
+      "white+white+yellow": {
+            "name": "كريمي فاتح",
+            "hex": "#fef3c7",
+            "lesson": "أبيض + أبيض + أصفر = كريمي فاتح."
+      },
+      "white+yellow+yellow": {
+            "name": "أصفر زبدي",
+            "hex": "#fde047",
+            "lesson": "أبيض + أصفر + أصفر = أصفر زبدي."
+      },
+      "yellow+yellow+yellow": {
+            "name": "أصفر",
+            "hex": "#facc15",
+            "lesson": "أصفر + أصفر + أصفر = أصفر."
+      }
+};
+
+    const challenges = Object.entries(recipes)
+      .filter(([key]) => {
+        const colors = key.split("+");
+        return colors.length >= 2 && new Set(colors).size > 1;
+      })
+      .map(([key, recipe]) => ({
+        key,
+        target: recipe.name,
+        hex: recipe.hex,
+        recipe: key.split("+")
+      }));
+
+    const threeColorChallenges = challenges.filter(challenge => challenge.recipe.length === 3);
+    const twoColorChallenges = challenges.filter(challenge => challenge.recipe.length === 2);
+
+    const droppedColors = [];
+    let currentChallenge = null;
+    let score = 0;
+
+    const palette = document.getElementById("palette");
+    const mixingZone = document.getElementById("mixingZone");
+    const droppedColorsEl = document.getElementById("droppedColors");
+    const emptyNote = document.getElementById("emptyNote");
+    const resultColor = document.getElementById("resultColor");
+    const resultName = document.getElementById("resultName");
+    const formula = document.getElementById("formula");
+    const feedback = document.getElementById("feedback");
+    const scoreEl = document.getElementById("score");
+    const challengeText = document.getElementById("challengeText");
+    const targetColor = document.getElementById("targetColor");
+    const colorButtons = [...palette.querySelectorAll(".color-token")];
+
+    function normalizeRecipe(colors) {
+      return [...colors].sort().join("+");
+    }
+
+    function hexToRgb(hex) {
+      const cleanHex = hex.replace("#", "");
+      return {
+        r: parseInt(cleanHex.slice(0, 2), 16),
+        g: parseInt(cleanHex.slice(2, 4), 16),
+        b: parseInt(cleanHex.slice(4, 6), 16)
+      };
+    }
+
+    function rgbToHex(r, g, b) {
+      const toHex = value => Math.max(0, Math.min(255, Math.round(value)))
+        .toString(16)
+        .padStart(2, "0");
+
+      return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+    }
+
+    function getFallbackMix(colors) {
+      const rgbValues = colors.map(color => hexToRgb(colorHex[color]));
+      const count = rgbValues.length;
+
+      let r = rgbValues.reduce((sum, rgb) => sum + rgb.r, 0) / count;
+      let g = rgbValues.reduce((sum, rgb) => sum + rgb.g, 0) / count;
+      let b = rgbValues.reduce((sum, rgb) => sum + rgb.b, 0) / count;
+
+      if (colors.includes("black")) {
+        r *= 0.68;
+        g *= 0.68;
+        b *= 0.68;
+      }
+
+      if (colors.includes("white")) {
+        r = r + (255 - r) * 0.22;
+        g = g + (255 - g) * 0.22;
+        b = b + (255 - b) * 0.22;
+      }
+
+      return {
+        name: "لون مختلط",
+        hex: rgbToHex(r, g, b),
+        lesson: "هذه خلطة حرة."
+      };
+    }
+
+    function getMixResult(colors) {
+      const key = normalizeRecipe(colors);
+      return recipes[key] || getFallbackMix(colors);
+    }
+
+    function setUsedColorsState() {
+      colorButtons.forEach(button => {
+        button.classList.toggle("is-used", droppedColors.includes(button.dataset.color));
+      });
+    }
+
+    function renderDroppedColors() {
+      droppedColorsEl.innerHTML = "";
+      emptyNote.style.display = droppedColors.length ? "none" : "block";
+
+      droppedColors.forEach((color, index) => {
+        const drop = document.createElement("button");
+        drop.type = "button";
+        drop.className = "small-drop";
+        drop.textContent = colorNames[color];
+        drop.style.background = colorHex[color];
+        drop.setAttribute("aria-label", `حذف ${colorNames[color]}`);
+
+        if (color === "white" || color === "yellow") {
+          drop.classList.add("light-text");
+        }
+
+        drop.addEventListener("click", () => {
+          droppedColors.splice(index, 1);
+          renderDroppedColors();
+          updateMixPreview();
+        });
+
+        droppedColorsEl.appendChild(drop);
+      });
+
+      setUsedColorsState();
+    }
+
+    function addColor(color) {
+      if (droppedColors.length >= 3) {
+        feedback.textContent = "الحد الأقصى ثلاثة ألوان. اضغطي على لون في الوعاء لحذفه.";
+        return;
+      }
+
+      droppedColors.push(color);
+      renderDroppedColors();
+      updateMixPreview();
+      feedback.textContent = `أضفنا ${colorNames[color]}.`;
+    }
+
+    function updateMixPreview() {
+      if (droppedColors.length < 2) {
+        resultColor.style.background = "linear-gradient(145deg, #ffffff, #e5e7eb)";
+        resultName.textContent = "اختاري لوناً آخر";
+        formula.textContent = "الخلط يحتاج لونين على الأقل.";
+        applyPageBackground(null);
+        return null;
+      }
+
+      const result = getMixResult(droppedColors);
+      const formulaText = droppedColors.map(color => colorNames[color]).join(" + ");
+
+      resultColor.style.background = result.hex;
+      resultName.textContent = result.name;
+      formula.textContent = `${formulaText} = ${result.name}`;
+      applyPageBackground(result);
+      return result;
+    }
+
+    function sameRecipe(a, b) {
+      return normalizeRecipe(a) === normalizeRecipe(b);
+    }
+
+    function adjustHexBrightness(hex, factor) {
+      const rgb = hexToRgb(hex);
+      return rgbToHex(rgb.r * factor, rgb.g * factor, rgb.b * factor);
+    }
+
+    function applyPageBackground(result) {
+      if (!result || droppedColors.length < 2) {
+        document.body.style.background = `
+          radial-gradient(circle at 15% 12%, rgba(255,255,255,.45), transparent 30%),
+          radial-gradient(circle at 90% 18%, rgba(255,255,255,.28), transparent 28%),
+          linear-gradient(135deg, var(--bg-1), var(--bg-2))
+        `;
+        return;
+      }
+
+      const darkShade = adjustHexBrightness(result.hex, 0.74);
+      const lightShade = adjustHexBrightness(result.hex, 1.18);
+
+      document.body.style.background = `
+        radial-gradient(circle at 15% 12%, rgba(255,255,255,.38), transparent 30%),
+        radial-gradient(circle at 90% 18%, rgba(255,255,255,.22), transparent 28%),
+        linear-gradient(135deg, ${lightShade}, ${darkShade})
+      `;
+    }
+
+    function checkAnswer() {
+      const result = updateMixPreview();
+
+      if (droppedColors.length < 2) {
+        feedback.textContent = "اختاري لونين أولاً.";
+        return;
+      }
+
+      const selectedKey = normalizeRecipe(droppedColors);
+      const acceptedByKey = selectedKey === currentChallenge.key;
+      const acceptedByName = result.name === currentChallenge.target;
+
+      if (acceptedByKey || acceptedByName) {
+        score += 1;
+        scoreEl.textContent = score;
+        feedback.textContent = `صحيح: ${result.name}`;
+        setTimeout(newChallenge, 850);
+      } else {
+        const hint = currentChallenge.recipe.map(color => colorNames[color]).join(" + ");
+        feedback.textContent = `جرّبي: ${hint}`;
+      }
+    }
+
+    function resetBowl() {
+      droppedColors.length = 0;
+      renderDroppedColors();
+      updateMixPreview();
+      applyPageBackground(null);
+      feedback.textContent = "تم مسح الوعاء.";
+    }
+
+    function newChallenge() {
+      const pool = Math.random() < 0.78 ? threeColorChallenges : twoColorChallenges;
+      const next = pool[Math.floor(Math.random() * pool.length)];
+      currentChallenge = next;
+      const countText = next.recipe.length === 3 ? "من ٣ ألوان" : "من لونين";
+      challengeText.textContent = `اصنعي ${next.target} ${countText}`;
+      targetColor.style.background = next.hex;
+      resetBowl();
+      feedback.textContent = `التحدي: ${next.target}`;
+    }
+
+    function createGhost(token, x, y) {
+      const ghost = document.createElement("div");
+      ghost.className = "ghost";
+      ghost.textContent = token.dataset.name;
+      ghost.style.background = token.dataset.hex;
+
+      if (token.dataset.color === "white" || token.dataset.color === "yellow") {
+        ghost.classList.add("light-text");
+      }
+
+      document.body.appendChild(ghost);
+      moveGhost(ghost, x, y);
+      return ghost;
+    }
+
+    function moveGhost(ghost, x, y) {
+      ghost.style.left = `${x}px`;
+      ghost.style.top = `${y}px`;
+    }
+
+    function isInsideMixingZone(x, y) {
+      const rect = mixingZone.getBoundingClientRect();
+      return x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom;
+    }
+
+    function setupPointerDrag(token) {
+      let ghost = null;
+      let dragging = false;
+      let pointerId = null;
+      let startX = 0;
+      let startY = 0;
+      let moved = false;
+
+      token.addEventListener("pointerdown", event => {
+        dragging = true;
+        pointerId = event.pointerId;
+        startX = event.clientX;
+        startY = event.clientY;
+        moved = false;
+        token.setPointerCapture(pointerId);
+        ghost = createGhost(token, event.clientX, event.clientY);
+      });
+
+      token.addEventListener("pointermove", event => {
+        if (!dragging || event.pointerId !== pointerId || !ghost) return;
+
+        const distance = Math.hypot(event.clientX - startX, event.clientY - startY);
+        if (distance > 8) moved = true;
+
+        moveGhost(ghost, event.clientX, event.clientY);
+        mixingZone.classList.toggle("is-over", isInsideMixingZone(event.clientX, event.clientY));
+      });
+
+      token.addEventListener("pointerup", event => {
+        if (!dragging || event.pointerId !== pointerId) return;
+
+        const droppedInside = isInsideMixingZone(event.clientX, event.clientY);
+        dragging = false;
+        pointerId = null;
+        mixingZone.classList.remove("is-over");
+
+        if (ghost) {
+          ghost.remove();
+          ghost = null;
+        }
+
+        if (droppedInside || !moved) {
+          addColor(token.dataset.color);
+        }
+      });
+
+      token.addEventListener("pointercancel", () => {
+        dragging = false;
+        pointerId = null;
+        mixingZone.classList.remove("is-over");
+        if (ghost) ghost.remove();
+        ghost = null;
+      });
+    }
+
+    colorButtons.forEach(setupPointerDrag);
+
+    document.getElementById("checkBtn").addEventListener("click", checkAnswer);
+    document.getElementById("mixBtn").addEventListener("click", () => {
+      const result = updateMixPreview();
+      feedback.textContent = result ? result.lesson : "اختاري لونين.";
+    });
+    document.getElementById("resetBtn").addEventListener("click", resetBowl);
+    document.getElementById("newChallengeBtn").addEventListener("click", newChallenge);
+
+    newChallenge();
+  </script>
+</body>
+</html>
